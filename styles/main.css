@@ -1,0 +1,162 @@
+.about-us {
+    text-align: center;
+    height: 23vh;
+    padding: 6.4% 23%;
+}
+
+.about-us > span {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.about-us__title {
+    font-size: 3rem;
+    color: var(--black);;
+    font-weight: 600;
+    margin: 6% 0;
+}
+
+.about-us__paragraph {
+    font-size: 1.25rem;
+    color: var(--light-font-color);
+}
+
+.metrics {
+    display: flex;
+    align-items: start;
+    height: 16vh;
+    padding: 0 7% 6.5% 7%;
+}
+
+.metrics > div {
+    width: 280px;
+    margin: 0 2.5%;
+}
+
+.metrics__numbers {
+    font-weight: 600;
+    color: var(--main-color);
+    font-size: 3.75rem;
+    margin-bottom: 5%;
+}
+
+.metrics__numbers-explain {
+    color: var(--black);;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.metrics__paragraph {
+    margin-top: 5%;
+    color: var(--light-font-color)
+}
+
+.open-jobs {
+    text-align: center;
+    padding: 5.5% 5% 3% 5%;
+    height: 72vh;
+    display: block;
+}
+
+.open-jobs__text {
+    margin-bottom: 5%;
+}
+
+.open-jobs__text > span {
+    color: var(--main-color);
+    border-radius: 1em;
+    background-color: rgba(142,36,36,0.05);
+    padding: 0.5%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.open-jobs__text__title {
+    margin: 1% 0 2% 0;
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+
+.open-jobs__text__paragraph {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--light-font-color);
+}
+
+.vacancy-section {
+    color: var(--black);
+    width: 50%;
+    margin-bottom: 18em;
+    padding: 10% 25%;
+    height: 100vh;
+}
+
+.section__title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 6% 0;
+    display: inline-block;
+}
+
+.vacancy-section__position {
+    border-radius: 1em;
+    text-align: left;
+    margin-bottom: 2%;
+    margin: 0 0 6% 0;
+    padding: 3.5%;
+    border: 2px solid #EAECF0;
+}
+
+.vacancy-section__position > span, .position__salary-range {
+    font-weight: 500;
+    color: var(--light-font-color);
+    margin-right: 6%;
+    display: inline-block;
+}
+
+.position__name {
+    font-size: 1.125rem;
+    color: var(--black);
+    font-weight: 500;
+    margin-bottom: 6%;
+}
+
+.optimustech {
+    height: 40vh;
+    text-align: center;
+    margin: 5% 8% 6% 8%;
+    width: 75%;
+    background-color: rgba(142,36,36,0.05);
+    border-radius: 2em;
+    padding: 4.5%;
+}
+
+.optimustech > span {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.optimustech__title {
+    font-weight: 500;
+    font-size: 2.25rem;
+    color: var(--black);
+    margin: 1.5% 0 3% 0;
+}
+
+.user__icon {
+    width: 4em;
+    margin: 0,5%;
+}
+
+.user__name {
+    margin: 1%;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.optimustech__user > span {
+    font-weight: 400;
+    color: var(--light-font-color);
+    font-size: 0.85rem;
+}

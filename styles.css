@@ -1,0 +1,21 @@
+@import url('styles/reset.css');
+@import url('styles/fonts.css');
+@import url('styles/header.css');
+@import url('styles/main.css');
+@import url('styles/footer.css');
+
+
+:root {
+    --main-font: "Inter", sans-serif;
+    --light-font-color: #667085;
+    --main-color: #8E2424;
+    --white: #FFFFFF;
+    --black: #101828;
+}
+
+body {
+    background-color: var(--white);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 400;
+}
